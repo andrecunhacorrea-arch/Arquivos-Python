@@ -1,0 +1,18 @@
+diferenças entre listas e tuplas, listas são mais lentas e os dados dela podem ser mutáveis
+Nas listas são usado os colchetes"[]", e já nas tuplas são usados parantese"()"
+a lista ela é mutável usando o comando "append()" serve para adicionar um novo elemento na lista, como por exemplo, quando você crie uma lista de 2 valores,
+você consegue adicioanr mais um valor dentro da lista, usando esse comando. OBS: é importante a lista ter um nome para poder ser usada, geralmente o nome dela é
+o mesmo da variavel.
+para poder remover um elemento da lista, voce utiliza o comanod "remove()", ele pode remover um elemento de qualquer lugar da lista, enquanto o append ele adiciona
+somente um elemento ao final da lista
+
+O comando "len()", ele lê a quantidade de caracteres que se pode ter em uma palavra, por exemplo: "Brasil", tem cinco letras, qunando você usa o comando Len(paises)
+assim lendo através do tamanho do lista ou do vetor, por exemplo, nesse caso é o número 1, ele é para contar a quantidade de caracteres.
+
+-----------------------------------------------------
+(comenteario da Pietra)
+"Len()" - metodo que serve para a contagem de caracteres, numeros, letras, palavras ...
+"Sum()" - metodo que serve para somar os elemtentos numéricos, so servindo para números
+-----------------------------------------------------
+
+elif é a uma condição dentro da condição, igual ao senão se dentro do portugol 
