@@ -8,17 +8,14 @@ for i in range(5):#loop para repetir a entrada 5 vezes
     numeros += (n, ) #adiciona o número digitado à tupla numeros. A vírgula é necessária para indicar que é uma tupla de um único elemento.
     print(f"número {n} adicionado á lista.")
 
-    print("\n Números adicionados ") #mensagem indicando o início da exibição dos números adicionados.
 
-    for i, num in enumerate(numeros, start=1): #percorre a tupla de números com um índice começando em 1. o comando enumerate() é usado para obter tanto o índice quanto o valor do elemento na tupla.
-        print(f"{i}. {num}") #exibe cada número com seu respectivo número na lista.
+for i, num in enumerate(numeros, start=1): #percorre a tupla de números com um índice começando em 1. o comando enumerate() é usado para obter tanto o índice quanto o valor do elemento na tupla.
+    print(f"{i}. {num}") #exibe cada número com seu respectivo número na lista.
 
-maior_numero = max(numeros) #obtém o maior número da tupla usando a função max().
-menor_numero = min(numeros) #obtém o menor número da tupla usando a função min().
 vezes_5 = numeros.count(5) #conta quantas vezes o número 5 aparece na tupla usando o método count().
     
-print(f"\n maior número: {maior_numero}") #exibe o maior número.
-print(f"\n menor número: {menor_numero}") #exibe o menor número.
+print(f"\n maior número: {max(numeros)}") #exibe o maior número.
+print(f"\n menor número: {min(numeros)}") #exibe o menor número.
 print(f"\n o número 5 apareceu {vezes_5} vezes na lista.") #exibe quantas vezes o número 5 apareceu na tupla.
 
 
