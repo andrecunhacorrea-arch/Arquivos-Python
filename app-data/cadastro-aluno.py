@@ -57,5 +57,5 @@ while True:
     else:
         print("opção inválida, por favor escolha uma opção válida.")
         continue #continua o loop do menu
-
-      
+        pritn
+    
